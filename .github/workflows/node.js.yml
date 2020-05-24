@@ -1,0 +1,20 @@
+# https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: All Tests
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 12.13
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.13
+      - name: Install
+        run: npm ci
+      - name: Test
+        run: npm test
