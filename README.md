@@ -1,4 +1,8 @@
-<img src="https://raw.githubusercontent.com/qupaya/assets/master/logo/logo-full.svg" alt="dark qupaya logo with font" width="50" align="right"><br><br>
+<img src="https://raw.githubusercontent.com/qupaya/assets/master/logo/logo-full.svg" alt="dark qupaya logo with font" width="50" align="right">
+
+![All Tests](https://github.com/qupaya/ng-testing-cheatsheet/workflows/All%20Tests/badge.svg)
+
+<br>
 
 # Angular Testing Cheat Sheet
 
