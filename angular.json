@@ -28,10 +28,10 @@
       }
     },
     "component-tests": {
+      "projectType": "library",
       "root": "libs/component-tests",
       "sourceRoot": "libs/component-tests/src",
-      "projectType": "library",
-      "schematics": {},
+      "prefix": "ng-testing-cheatcheat",
       "architect": {
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
@@ -48,8 +48,14 @@
           "options": {
             "jestConfig": "libs/component-tests/jest.config.js",
             "tsConfig": "libs/component-tests/tsconfig.spec.json",
-            "passWithNoTests": true
+            "passWithNoTests": true,
+            "setupFile": "libs/component-tests/src/test-setup.ts"
           }
+        }
+      },
+      "schematics": {
+        "@nrwl/angular:component": {
+          "style": "scss"
         }
       }
     }

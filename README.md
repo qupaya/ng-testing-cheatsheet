@@ -6,11 +6,13 @@ This repository shows various examples of testing functionalities of your typica
 
 ## Unit Tests
 
-| Functionality under test | Examples                                                                                      |
-| ------------------------ | --------------------------------------------------------------------------------------------- |
-| RxJs / Observables       | [Marble tests using jasmine-marbles](./libs/rxjs-tests/src/lib/jasmine-marbles-tests.spec.ts) |
-| RxJs / Observables       | [Marble tests using jest-marbles](./libs/rxjs-tests/src/lib/jest-marbles-tests.spec.ts)       |
-| RxJs / Observables       | [Marble tests using rxjs/testing](./libs/rxjs-tests/src/lib/rxjs-testing-tests.spec.ts)       |
+| Functionality under test         | Examples                                                                                                                 |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| RxJs / Observables               | [Marble tests using jasmine-marbles](./libs/rxjs-tests/src/lib/jasmine-marbles-tests.spec.ts)                            |
+| RxJs / Observables               | [Marble tests using jest-marbles](./libs/rxjs-tests/src/lib/jest-marbles-tests.spec.ts)                                  |
+| RxJs / Observables               | [Marble tests using rxjs/testing](./libs/rxjs-tests/src/lib/rxjs-testing-tests.spec.ts)                                  |
+| Presentation Component (Default) | [@angular/testing-library](./libs/component-tests/src/lib/angular-testing-library/presentation-component.spec.ts)        |
+| Presentation Component (OnPush)  | [@angular/testing-library](./libs/component-tests/src/lib/angular-testing-library/presentation-component-onpush.spec.ts) |
 
 ---
 

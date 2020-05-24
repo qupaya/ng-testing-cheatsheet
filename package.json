@@ -43,27 +43,29 @@
     "zone.js": "^0.10.2"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "0.901.0",
     "@angular/cli": "9.1.0",
+    "@angular/compiler-cli": "^9.1.0",
+    "@angular/language-service": "^9.1.0",
+    "@nrwl/cypress": "9.3.0",
     "@nrwl/jest": "9.3.0",
     "@nrwl/workspace": "9.3.0",
+    "@testing-library/angular": "^9.2.2",
     "@types/jest": "25.1.4",
     "@types/node": "~8.9.4",
+    "codelyzer": "~5.0.1",
+    "cypress": "^4.1.0",
     "dotenv": "6.2.0",
     "eslint": "6.8.0",
     "jasmine-marbles": "^0.6.0",
     "jest": "25.2.3",
     "jest-marbles": "^2.5.1",
+    "jest-preset-angular": "8.1.2",
     "prettier": "2.0.4",
     "ts-jest": "25.2.1",
+    "ts-mockito": "^2.5.0",
     "ts-node": "~7.0.0",
     "tslint": "~6.0.0",
-    "typescript": "~3.8.3",
-    "@angular/compiler-cli": "^9.1.0",
-    "@angular/language-service": "^9.1.0",
-    "@angular-devkit/build-angular": "0.901.0",
-    "codelyzer": "~5.0.1",
-    "jest-preset-angular": "8.1.2",
-    "cypress": "^4.1.0",
-    "@nrwl/cypress": "9.3.0"
+    "typescript": "~3.8.3"
   }
 }
