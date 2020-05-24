@@ -16,8 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ng-testing-cheatcheat/rxjs-tests": ["libs/rxjs-tests/src/index.ts"],
-      "@ng-testing-cheatcheat/component-tests": [
+      "@ng-testing-cheatsheet/rxjs-tests": ["libs/rxjs-tests/src/index.ts"],
+      "@ng-testing-cheatsheet/component-tests": [
         "libs/component-tests/src/index.ts"
       ]
     }

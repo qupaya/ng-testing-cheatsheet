@@ -1,18 +1,8 @@
 {
   "extends": "../../tslint.json",
   "rules": {
-    "directive-selector": [
-      true,
-      "attribute",
-      "ngTestingCheatcheat",
-      "camelCase"
-    ],
-    "component-selector": [
-      true,
-      "element",
-      "ng-testing-cheatcheat",
-      "kebab-case"
-    ]
+    "directive-selector": [true, "attribute", "qp", "camelCase"],
+    "component-selector": [true, "element", "qp", "kebab-case"]
   },
   "linterOptions": {
     "exclude": ["!**/*"]

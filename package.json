@@ -1,5 +1,5 @@
 {
-  "name": "ng-testing-cheatcheat",
+  "name": "ng-testing-cheatsheet",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -7,7 +7,7 @@
     "nx": "nx",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
+    "test": "nx test",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
     "affected:apps": "nx affected:apps",

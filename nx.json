@@ -1,5 +1,5 @@
 {
-  "npmScope": "ng-testing-cheatcheat",
+  "npmScope": "ng-testing-cheatsheet",
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": {

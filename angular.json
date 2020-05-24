@@ -31,7 +31,7 @@
       "projectType": "library",
       "root": "libs/component-tests",
       "sourceRoot": "libs/component-tests/src",
-      "prefix": "ng-testing-cheatcheat",
+      "prefix": "qp",
       "architect": {
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
