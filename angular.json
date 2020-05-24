@@ -26,9 +26,44 @@
           }
         }
       }
+    },
+    "component-tests": {
+      "root": "libs/component-tests",
+      "sourceRoot": "libs/component-tests/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/component-tests/tsconfig.lib.json",
+              "libs/component-tests/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/component-tests/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/component-tests/jest.config.js",
+            "tsConfig": "libs/component-tests/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {
-    "defaultCollection": "@nrwl/workspace"
+    "defaultCollection": "@nrwl/angular"
+  },
+  "schematics": {
+    "@nrwl/angular:application": {
+      "unitTestRunner": "jest",
+      "e2eTestRunner": "cypress"
+    },
+    "@nrwl/angular:library": {
+      "unitTestRunner": "jest"
+    }
   }
 }
